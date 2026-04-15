@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio | Cristhian Coelho</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Cristhian Coelho</h1>
+            <nav> 
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><button id="botao-tema">Vermelho</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                
+
+                <img id="tema-imagem" src="Imgs/Miku.jpg" alt="imgs/teto.jpg">
+                <p>Meu nome é Cristhian Coelho, atualmente estudando sistemas para internet.</p>
+
+            </section>
+
+            <section id="projetos">
+                <h2>Meus Projetos</h2>
+                <div class="container-projetos">
+
+                </div>
+                
+            </section>
+
+            <section id="contato">
+                <h2>Envie uma mensagem!</h2>
+
+                <form action="#" method="post" id="mensagem">
+                    <div class="campo">
+                     <label for="nome">Nome:</label>
+                     <input type="text" id="email" required>
+                    </div> 
+
+                    <div class="campo">
+                     <label for="email">Email:</label>
+                 <input type="email" id="nome" required>
+                    </div>
+
+                    <div class="campo">
+                     <label for="msg">Mensagem:</label>
+                     <textarea id="msg"></textarea>
+                    </div>
+              
+                 <button type="submit">Enviar Mensagem</button>
+
+                </form>
+            </section>
+        </main>
+
+        <footer> 
+            <p> &copy; 2026 Desenvolvido por Cristhian Coelho</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
